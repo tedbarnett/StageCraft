@@ -1,9 +1,9 @@
-# Acting
+# StageCraft.live
 Online multiplayer theater system built with Unity (XR Plugin, Universal Render Pipeline) and Normcore
 
 Goal is to enable multiple actors to do an improv scene, each using Oculus Quests.  
 
-Working (in "Sketch" project):
+Working (in "StageCraft" Unity project):
 * Normcore VR multiplayer working (basic avatars, with voice chat, mouth movement)
 * Basic "theater-in-the-round" set with spotlights
 * On-stage props (hats, etc.)
