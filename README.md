@@ -9,7 +9,7 @@ Working (in "StageCraft" Unity project):
 * On-stage props (hats, etc.)
 * 3D drawing ("brush")
 * Implemented mirror (using https://assetstore.unity.com/packages/vfx/shaders/standard-ar-vr-mirror-shaders-118971)
-* Running on Oculus Quest under Unity 2019.3.14f1
+* Running on Oculus Quest under Unity 2020.1.10f1
 
 Next steps:
 * Touch control button presses for: mirror on/off
