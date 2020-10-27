@@ -949,6 +949,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1808373041565369850, guid: 7e5c835e4acdfba48a4884314c79ae31, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1810307889387531054, guid: 7e5c835e4acdfba48a4884314c79ae31, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1810325481090881770, guid: 7e5c835e4acdfba48a4884314c79ae31, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3505930944451359986, guid: 7e5c835e4acdfba48a4884314c79ae31, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1977,7 +1989,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!81 &1354393925
 AudioListener:
   m_ObjectHideFlags: 0
@@ -2072,9 +2084,54 @@ Transform:
   m_Children:
   - {fileID: 879569797}
   - {fileID: 1136389345}
+  - {fileID: 1480330776}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1480330775
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1480330776}
+  - component: {fileID: 1480330777}
+  m_Layer: 0
+  m_Name: StageCraft Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1480330776
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480330775}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.4058664, y: -0.83696693, z: 0.7733297}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1476363861}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1480330777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480330775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c52d93a2987fd14681a6374c6219049, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCamera: {fileID: 1354393924}
 --- !u!1 &1659966747
 GameObject:
   m_ObjectHideFlags: 0
@@ -2802,6 +2859,10 @@ PrefabInstance:
     - target: {fileID: 3635736583855722419, guid: c6fc802c77d7b6940b109539ac0205ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4701254215654943384, guid: c6fc802c77d7b6940b109539ac0205ad, type: 3}
+      propertyPath: m_Mass
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4701254215654943387, guid: c6fc802c77d7b6940b109539ac0205ad, type: 3}
       propertyPath: m_InteractionManager
