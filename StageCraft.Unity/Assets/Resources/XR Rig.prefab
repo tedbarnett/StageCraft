@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 8621026608315108020}
   - component: {fileID: 7604783736217961405}
   - component: {fileID: 8085827118127530639}
+  - component: {fileID: 6730923304304772358}
   m_Layer: 0
   m_Name: XR Rig
   m_TagString: Untagged
@@ -54,9 +55,9 @@ MonoBehaviour:
   m_RigBaseGameObject: {fileID: 5441155441835988192}
   m_CameraFloorOffsetObject: {fileID: 5441155442342112411}
   m_CameraGameObject: {fileID: 5441155441850924885}
-  m_TrackingOriginMode: 1
+  m_TrackingOriginMode: 2
   m_TrackingSpace: 3
-  m_CameraYOffset: 1.36144
+  m_CameraYOffset: 1.7
 --- !u!114 &8109811595956757314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,6 +167,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_System: {fileID: 8621026608315108020}
+--- !u!114 &6730923304304772358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5441155441835988192}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afc617c1004b55c45ad75d267e502c8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftTeleportRay: {fileID: 0}
+  rightTeleportRay: {fileID: 5441155442093816472}
+  teleportActivationButton: 14
+  activationThreshold: 0.02
 --- !u!1 &5441155441850924885
 GameObject:
   m_ObjectHideFlags: 0
@@ -487,8 +504,8 @@ MonoBehaviour:
   m_PoseProvider: {fileID: 0}
   m_ControllerNode: 5
   m_SelectUsage: 3
-  m_ActivateUsage: 2
-  m_UIPressUsage: 2
+  m_ActivateUsage: 3
+  m_UIPressUsage: 3
   m_AxisToPressThreshold: 0.1
   m_ModelPrefab: {fileID: 0}
   m_ModelTransform: {fileID: 0}
@@ -525,7 +542,7 @@ MonoBehaviour:
   m_OnSelectExit:
     m_PersistentCalls:
       m_Calls: []
-  m_SelectActionTrigger: 1
+  m_SelectActionTrigger: 0
   m_HideControllerOnSelect: 0
   m_PlayAudioClipOnSelectEnter: 0
   m_AudioClipForOnSelectEnter: {fileID: 0}
@@ -566,7 +583,7 @@ MonoBehaviour:
   m_RaycastTriggerInteraction: 1
   m_HoverToSelect: 0
   m_HoverTimeToSelect: 0.5
-  m_EnableUIInteraction: 1
+  m_EnableUIInteraction: 0
 --- !u!120 &5441155442093816470
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -1219,7 +1236,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5441155442342112411}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.36144, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5441155441850924888}
