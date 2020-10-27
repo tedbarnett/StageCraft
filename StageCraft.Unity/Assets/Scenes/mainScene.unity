@@ -760,6 +760,7 @@ GameObject:
   - component: {fileID: 825921912}
   - component: {fileID: 825921911}
   - component: {fileID: 825921910}
+  - component: {fileID: 825921914}
   m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
@@ -843,6 +844,51 @@ Transform:
   m_Father: {fileID: 187163794}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &825921914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825921909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38f6bf3d943ac7945842268c9ef1dca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 879569796}
+  m_Colliders: []
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_OnFirstHoverEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnLastHoverExit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnDeactivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_CustomReticle: {fileID: 1178059454}
+  m_TeleportationProvider: {fileID: 0}
+  m_MatchOrientation: 0
+  m_TeleportTrigger: 0
 --- !u!1 &879569795
 GameObject:
   m_ObjectHideFlags: 0
@@ -896,6 +942,10 @@ PrefabInstance:
     - target: {fileID: 136897714238903901, guid: 7e5c835e4acdfba48a4884314c79ae31, type: 3}
       propertyPath: m_Name
       value: Theater in the Round
+      objectReference: {fileID: 0}
+    - target: {fileID: 136897714238903901, guid: 7e5c835e4acdfba48a4884314c79ae31, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3505930944451359986, guid: 7e5c835e4acdfba48a4884314c79ae31, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1842,6 +1892,11 @@ Transform:
   m_Father: {fileID: 1117781895}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1178059454 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1808468808309937705, guid: 7e5c835e4acdfba48a4884314c79ae31, type: 3}
+  m_PrefabInstance: {fileID: 908052811}
+  m_PrefabAsset: {fileID: 0}
 --- !u!850595691 &1203873977
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -2762,7 +2817,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3143654683940708736, guid: fd2642ba853dadd46a66a987e1ce649e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.113
+      value: -0.115
       objectReference: {fileID: 0}
     - target: {fileID: 3143654683940708736, guid: fd2642ba853dadd46a66a987e1ce649e, type: 3}
       propertyPath: m_LocalPosition.z
