@@ -2134,7 +2134,10 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'TESTING:
 
-    - Grab objects (aim pointer, use grip button)'
+    1) Grab objects with RIGHT controller (aim pointer, use
+    grip button)
+
+    2) Move with LEFT controller (thumbstick)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2197,7 +2200,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -0.6092957, w: 1.456192}
+  m_margin: {x: 0, y: 0, z: -0.6092957, w: -3.3740168}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
