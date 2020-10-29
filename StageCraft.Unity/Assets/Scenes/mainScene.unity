@@ -905,6 +905,18 @@ MonoBehaviour:
   - componentID: 1
     component: {fileID: 660464325}
   _childViews: []
+--- !u!114 &660464327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660464321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e128309285c63649b011d96f6fca6d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &797862363 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6650755795177860100, guid: fd2642ba853dadd46a66a987e1ce649e, type: 3}
