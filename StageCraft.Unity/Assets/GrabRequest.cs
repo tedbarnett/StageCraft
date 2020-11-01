@@ -1,6 +1,10 @@
 ﻿using UnityEngine;
 using Normal.Realtime;
 using UnityEngine.XR.Interaction.Toolkit;
+
+// Based on XR Grab example: https://forum.unity.com/threads/object-grabbed-event.873097/
+// Maybe should try this: https://gist.github.com/cabbibo/59bf1532af2a0a0513f68850e0138e51
+
 public class GrabRequest : MonoBehaviour
 {
     private RealtimeView _realtimeView;
@@ -17,8 +21,8 @@ public class GrabRequest : MonoBehaviour
 
     private void OnEnable()
     {
-        interactor.onSelectEnter.AddListener(ReleaseObject);
-        interactor.onSelectExit.AddListener(GrabObject);
+        interactor.onSelectEnter.AddListener(GrabObject);
+        interactor.onSelectExit.AddListener(ReleaseObject);
     }
     private void OnDisable()
     {
