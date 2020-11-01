@@ -45,8 +45,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _obsoleteAppKey: 
-  _normcoreAppSettings: {fileID: 0}
-  _roomToJoinOnStart: Test Room
+  _normcoreAppSettings: {fileID: 11400000, guid: 0d2e103ea935e36418cb41e926c0a2b0, type: 2}
+  _roomToJoinOnStart: StageCraft Live
   _joinRoomOnStart: 1
 --- !u!114 &114568985850100520
 MonoBehaviour:
@@ -60,8 +60,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5b6ae53fe1e66d429cc41bbf5b29cb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _localAvatarPrefab: {fileID: 1435502846325602, guid: 132fa799030920d4cb15dfab7ec5c45f,
-    type: 3}
+  _localAvatarPrefab: {fileID: 5441155441835988192, guid: 88764ae9568a9d54ba8b98a60e5bd338, type: 3}
   _localPlayer:
     root: {fileID: 0}
     head: {fileID: 0}
