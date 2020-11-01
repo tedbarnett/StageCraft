@@ -35,3 +35,4 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+StageCraft.Unity/Assets/Normcore/Resources/NormcoreAppSettings.asset
