@@ -2010,7 +2010,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1659966747}
   m_LocalRotation: {x: 4.0139924e-18, y: 0.37283006, z: 0.000000044444803, w: 0.92789966}
-  m_LocalPosition: {x: 0, y: 0, z: 14.85}
+  m_LocalPosition: {x: 0, y: 0, z: 16.31}
   m_LocalScale: {x: 0.59208, y: 0.59208, z: 0.59208}
   m_Children: []
   m_Father: {fileID: 1976893725}
@@ -2018,7 +2018,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 43.78, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.52, y: 10.73}
+  m_AnchoredPosition: {x: 16, y: 12.8}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1659966749
@@ -2043,13 +2043,16 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'TESTING:
 
-    1) Move with LEFT controller (thumbstick)
+    1) Grab objects with RIGHT controller (aim pointer, use
+    grip button)
 
-    2) Grab objects
-    with RIGHT controller (aim pointer, use grip button)
 
-    3) Blue objects should
-    be "synched" between players
+    NOT WORKING:
+
+    x) Move with LEFT controller (thumbstick)
+
+    x)
+    Blue objects should be "synched" between players
 
 '
   m_isRightToLeft: 0
@@ -2114,7 +2117,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -0.6092957, w: -3.3740168}
+  m_margin: {x: 0, y: 0, z: -0.6092957, w: -6.575693}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
