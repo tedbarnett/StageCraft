@@ -1894,7 +1894,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1354393924}
-  m_Enabled: 0
+  m_Enabled: 1
 --- !u!20 &1354393926
 Camera:
   m_ObjectHideFlags: 0
@@ -2496,7 +2496,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 1.6608e-41, z: 0, w: 5.020411e-10}
+  m_BoundingSphereOverride: {x: 0, y: 2.746e-41, z: 0, w: 0.0000000032159733}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
