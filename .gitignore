@@ -4,7 +4,8 @@
 [Bb]uild/
 [Bb]uilds/
 Assets/AssetStoreTools*
-Assets/Normcore/Resources/
+StageCraft.Unity/Assets/Assets/Normcore/Resources/
+StageCraft.Unity/Assets/Assets/Normal/Resources/
 
 # Visual Studio cache directory
 .vs/
