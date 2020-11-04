@@ -533,6 +533,9 @@ GameObject:
   - component: {fileID: 4584258270802057552}
   - component: {fileID: 4584258270804957552}
   - component: {fileID: 4584258270803827632}
+  - component: {fileID: 5734589862701897932}
+  - component: {fileID: 7519280193187948029}
+  - component: {fileID: 8669901945431913623}
   m_Layer: 0
   m_Name: HeadModel
   m_TagString: Untagged
@@ -604,6 +607,53 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5734589862701897932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4584258270801823088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -363599832, guid: 30f4fd177e1fad742be136a8237ab587, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _realtime: {fileID: 0}
+  _sceneViewUUID: 
+  _viewUUID: 
+  _sceneViewPreventOwnershipTakeover: 0
+  _sceneViewDestroyWhenOwnerOrLastClientLeaves: 1
+  _isRootPrefabView: 0
+  _components:
+  - componentID: 1
+    component: {fileID: 7519280193187948029}
+  _childViews: []
+--- !u!114 &7519280193187948029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4584258270801823088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02aa51fba60eb8045b36780218c5ec10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8669901945431913623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4584258270801823088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2467bf1f28770434c8cb0eb0fecfb070, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _color: {r: 0.17915626, g: 0.26744235, b: 0.6226415, a: 0.45490196}
 --- !u!1 &4584258270801823090
 GameObject:
   m_ObjectHideFlags: 0
@@ -1150,7 +1200,9 @@ MonoBehaviour:
     component: {fileID: 5768350887004669971}
   - componentID: 2
     component: {fileID: 1770574806356595885}
-  _childViews: []
+  _childViews:
+  - viewID: 1
+    view: {fileID: 5734589862701897932}
 --- !u!114 &5768350887004669971
 MonoBehaviour:
   m_ObjectHideFlags: 0
