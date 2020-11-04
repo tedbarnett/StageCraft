@@ -1153,8 +1153,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerName: {fileID: 4783021194433824417}
   playerHeadModel: {fileID: 4584258270801823088}
-  playerLeftHandModel: {fileID: 1216210482224117307}
-  playerRightHandModel: {fileID: 5549809628710579813}
+  playerLeftHandModel: {fileID: 5549809628710579813}
+  playerRightHandModel: {fileID: 1216210482224117307}
 --- !u!114 &-3295956991586364129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2042,7 +2042,9 @@ MonoBehaviour:
   _components:
   - componentID: 1
     component: {fileID: 4465634307307509460}
-  _childViews: []
+  _childViews:
+  - viewID: 1
+    view: {fileID: 1119108825841532553}
 --- !u!114 &4465634307307509460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2094,6 +2096,40 @@ Transform:
   m_Father: {fileID: 5441155441835988194}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1119108825841532553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5549809628710579813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -363599832, guid: 30f4fd177e1fad742be136a8237ab587, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _realtime: {fileID: 0}
+  _sceneViewUUID: 
+  _viewUUID: 
+  _sceneViewPreventOwnershipTakeover: 0
+  _sceneViewDestroyWhenOwnerOrLastClientLeaves: 1
+  _isRootPrefabView: 0
+  _components:
+  - componentID: 1
+    component: {fileID: 3945031344117435482}
+  _childViews: []
+--- !u!114 &3945031344117435482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5549809628710579813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02aa51fba60eb8045b36780218c5ec10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7811329040952115249
 GameObject:
   m_ObjectHideFlags: 0
