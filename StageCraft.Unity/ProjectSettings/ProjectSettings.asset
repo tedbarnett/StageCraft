@@ -126,7 +126,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 0.37 (unique players)
+  bundleVersion: 0.40 (avatar colors)
   preloadedAssets:
   - {fileID: 7538737632930779260, guid: e390c1e9bee568f47ad0b603f26b1900, type: 2}
   - {fileID: 11400000, guid: 211d68deba1d6754bb489876ed6fff47, type: 2}
