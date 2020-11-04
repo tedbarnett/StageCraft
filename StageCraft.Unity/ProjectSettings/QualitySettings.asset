@@ -43,6 +43,7 @@ QualitySettings:
     customRenderPipeline: {fileID: 0}
     excludedTargetPlatforms:
     - Android
+    - Standalone
   - serializedVersion: 2
     name: Low
     pixelLightCount: 0
@@ -80,17 +81,18 @@ QualitySettings:
     customRenderPipeline: {fileID: 0}
     excludedTargetPlatforms:
     - Android
+    - Standalone
   - serializedVersion: 2
     name: Oculus Quest
     pixelLightCount: 1
     shadows: 1
-    shadowResolution: 0
+    shadowResolution: 2
     shadowProjection: 1
     shadowCascades: 4
     shadowDistance: 20
-    shadowNearPlaneOffset: 3
-    shadowCascade2Split: 0.33333334
-    shadowCascade4Split: {x: 0.06666667, y: 0.2, z: 0.46666667}
+    shadowNearPlaneOffset: 2
+    shadowCascade2Split: 0.9999997
+    shadowCascade4Split: {x: 0.16045947, y: 0.4466164, z: 0.8368114}
     shadowmaskMode: 1
     skinWeights: 2
     textureQuality: 0
@@ -153,6 +155,7 @@ QualitySettings:
     customRenderPipeline: {fileID: 0}
     excludedTargetPlatforms:
     - Android
+    - Standalone
   - serializedVersion: 2
     name: High
     pixelLightCount: 2
@@ -190,6 +193,7 @@ QualitySettings:
     customRenderPipeline: {fileID: 0}
     excludedTargetPlatforms:
     - Android
+    - Standalone
   - serializedVersion: 2
     name: Very High
     pixelLightCount: 3
@@ -227,6 +231,7 @@ QualitySettings:
     customRenderPipeline: {fileID: 0}
     excludedTargetPlatforms:
     - Android
+    - Standalone
   - serializedVersion: 2
     name: Ultra
     pixelLightCount: 1
@@ -264,6 +269,7 @@ QualitySettings:
     customRenderPipeline: {fileID: 0}
     excludedTargetPlatforms:
     - Android
+    - Standalone
   m_PerPlatformDefaultQuality:
     Android: 2
     Lumin: 5
