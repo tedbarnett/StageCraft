@@ -7,12 +7,11 @@ public class MakePlayerUnique : MonoBehaviour
 {
     public TextMeshPro playerName;
     public GameObject playerHeadModel;
-    public GameObject playerLeftHandModel;
-    public GameObject playerRightHandModel;
+    public GameObject playerWatchModel;
+
     private Color playerColor;
     Renderer m_HeadRenderer;
-    Renderer m_LeftHandRenderer;
-    Renderer m_RightHandRenderer;
+    Renderer m_WatchRenderer;
 
 
     void Awake()
@@ -22,11 +21,10 @@ public class MakePlayerUnique : MonoBehaviour
         playerName.text = "Actor " + Mathf.RoundToInt(Random.Range(0.0f, 100.0f));
 
         m_HeadRenderer = playerHeadModel.GetComponent<Renderer>();
-        m_LeftHandRenderer = playerLeftHandModel.GetComponent<Renderer>();
-        m_RightHandRenderer = playerRightHandModel.GetComponent<Renderer>();
+        m_WatchRenderer = playerWatchModel.GetComponent<Renderer>();
+
         m_HeadRenderer.material.color = playerColor;
-        m_LeftHandRenderer.material.color = playerColor;
-        m_RightHandRenderer.material.color = playerColor;
+        m_WatchRenderer.material.color = playerColor;
     }
 
 }
