@@ -25,7 +25,7 @@ RenderSettings:
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 3
-  m_SubtractiveShadowColor: {r: 0, g: 0, b: 0, a: 0.49411765}
+  m_SubtractiveShadowColor: {r: 0, g: 0, b: 0, a: 0.69411767}
   m_SkyboxMaterial: {fileID: 2100000, guid: 1be9ef936b98a6f41b29e714b9e0f4f6, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
@@ -3014,7 +3014,7 @@ MonoBehaviour:
     x)
     Move with LEFT controller (thumbstick)
 
-    x) Blue objects should be "synched"
+    x) Moved objects should be "synched"
     between players
 
 '
@@ -3401,7 +3401,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.25
+  m_Intensity: 0.9
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -3410,10 +3410,10 @@ Light:
     m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 0.292
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
+    m_Strength: 0.598
+    m_Bias: 0
+    m_NormalBias: 0.358
+    m_NearPlane: 0.19
     m_CullingMatrixOverride:
       e00: 1
       e01: 0
