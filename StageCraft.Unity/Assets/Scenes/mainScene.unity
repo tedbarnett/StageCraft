@@ -203,7 +203,7 @@ GameObject:
   - component: {fileID: 170751830}
   - component: {fileID: 170751829}
   m_Layer: 0
-  m_Name: Yellow Cube
+  m_Name: Brown table
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -216,11 +216,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 170751827}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.017, y: 0.194, z: 2}
   m_LocalScale: {x: 0.60778594, y: 0.4040222, z: 0.58}
   m_Children: []
-  m_Father: {fileID: 1176469636}
+  m_Father: {fileID: 1117781895}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &170751829
@@ -585,7 +585,7 @@ GameObject:
   - component: {fileID: 342376407}
   - component: {fileID: 342376406}
   m_Layer: 0
-  m_Name: Blue Cube (normcore-enabled)
+  m_Name: Blue Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -603,7 +603,7 @@ Transform:
   m_LocalScale: {x: 0.19, y: 0.19, z: 0.19}
   m_Children: []
   m_Father: {fileID: 1176469636}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 13, z: 0}
 --- !u!65 &342376403
 BoxCollider:
@@ -683,7 +683,7 @@ MonoBehaviour:
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   m_OnFirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -741,7 +741,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   m_ThrowVelocityScale: 1.5
-  m_ThrowAngularVelocityScale: 0.25
+  m_ThrowAngularVelocityScale: 1
   m_GravityOnDetach: 0
   m_RetainTransformParent: 1
 --- !u!54 &342376407
@@ -797,7 +797,7 @@ MonoBehaviour:
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   m_OnFirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -855,7 +855,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   m_ThrowVelocityScale: 1.5
-  m_ThrowAngularVelocityScale: 0.25
+  m_ThrowAngularVelocityScale: 1
   m_GravityOnDetach: 0
   m_RetainTransformParent: 1
 --- !u!1001 &660464319
@@ -895,7 +895,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3143654683940708736, guid: fd2642ba853dadd46a66a987e1ce649e, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3143654683940708736, guid: fd2642ba853dadd46a66a987e1ce649e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -954,11 +954,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 879569796}
-  m_Colliders:
-  - {fileID: 660464323}
+  m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   m_OnFirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -1016,7 +1015,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   m_ThrowVelocityScale: 1.5
-  m_ThrowAngularVelocityScale: 0.25
+  m_ThrowAngularVelocityScale: 1
   m_GravityOnDetach: 0
   m_RetainTransformParent: 1
 --- !u!65 &660464323
@@ -1082,7 +1081,7 @@ MonoBehaviour:
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   m_OnFirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -1140,7 +1139,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   m_ThrowVelocityScale: 1.5
-  m_ThrowAngularVelocityScale: 0.25
+  m_ThrowAngularVelocityScale: 1
   m_GravityOnDetach: 0
   m_RetainTransformParent: 1
 --- !u!54 &797862367
@@ -2239,7 +2238,7 @@ Transform:
   m_LocalScale: {x: 0.43, y: 0.43, z: 0.43}
   m_Children: []
   m_Father: {fileID: 1176469636}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -17, z: 0}
 --- !u!65 &998239710
 BoxCollider:
@@ -2319,7 +2318,7 @@ MonoBehaviour:
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   m_OnFirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -2377,7 +2376,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   m_ThrowVelocityScale: 1.5
-  m_ThrowAngularVelocityScale: 0.25
+  m_ThrowAngularVelocityScale: 1
   m_GravityOnDetach: 0
   m_RetainTransformParent: 1
 --- !u!54 &998239714
@@ -2594,6 +2593,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1135599737}
+  - {fileID: 170751828}
   - {fileID: 1176469636}
   - {fileID: 660464320}
   - {fileID: 8646762273596711276}
@@ -2699,12 +2699,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1923674412}
-  - {fileID: 170751828}
   - {fileID: 998239709}
   - {fileID: 2147134155}
   - {fileID: 342376402}
   m_Father: {fileID: 1117781895}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!850595691 &1203873977
 LightingSettings:
@@ -3400,7 +3399,7 @@ MonoBehaviour:
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   m_OnFirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -3458,7 +3457,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   m_ThrowVelocityScale: 1.5
-  m_ThrowAngularVelocityScale: 0.25
+  m_ThrowAngularVelocityScale: 1
   m_GravityOnDetach: 0
   m_RetainTransformParent: 1
 --- !u!1 &1976893724
@@ -3619,7 +3618,7 @@ Transform:
   m_LocalScale: {x: 0.14, y: 0.14, z: 0.14}
   m_Children: []
   m_Father: {fileID: 1176469636}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -34.5, z: 0}
 --- !u!65 &2147134156
 BoxCollider:
@@ -3699,7 +3698,7 @@ MonoBehaviour:
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   m_OnFirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -3882,7 +3881,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3143654683940708736, guid: fd2642ba853dadd46a66a987e1ce649e, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3143654683940708736, guid: fd2642ba853dadd46a66a987e1ce649e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
