@@ -21,13 +21,13 @@ public class GrabRequest : MonoBehaviour
 
     private void OnEnable()
     {
-        interactor.onSelectEnter.AddListener(GrabObject);
-        interactor.onSelectExit.AddListener(ReleaseObject);
+        interactor.onSelectEntered.AddListener(GrabObject);
+        interactor.onSelectExited.AddListener(ReleaseObject);
     }
     private void OnDisable()
     {
-        interactor.onSelectEnter.RemoveListener(ReleaseObject);
-        interactor.onSelectExit.RemoveListener(GrabObject);
+        interactor.onSelectEntered.RemoveListener(ReleaseObject);
+        interactor.onSelectExited.RemoveListener(GrabObject);
     }
 
 
