@@ -1,4 +1,4 @@
-# StageCraft.live
+# StageCraft Live!
 Online multiplayer theater system built with Unity (XR Plugin, Universal Render Pipeline) and Normcore
 
 Goal is to enable multiple actors to do an improv scene, each using Oculus Quests.  
