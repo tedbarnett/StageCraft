@@ -2353,7 +2353,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 43.78, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 16, y: 12.8}
+  m_AnchoredPosition: {x: 16, y: 14.09}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1659966749
@@ -2378,19 +2378,21 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'TESTING:
 
-    1) Grab objects with RIGHT controller (aim pointer, use
-    grip button)
+    1) Look for other player
 
-    2) Shadows and flickering improved
+    2) Try voice chat - watch
+    mouth movement
+
+    3) Grab objects with RIGHT controller (aim pointer, use grip
+    button)
 
 
     NOT WORKING:
 
-    x)
-    Move with LEFT controller (thumbstick)
+    - Move with LEFT controller (thumbstick)
 
-    x) Moved objects should be "synched"
-    between players
+    -
+    Moved objects should be "synched" between players
 
 '
   m_isRightToLeft: 0
@@ -2455,7 +2457,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -0.6092957, w: -6.575693}
+  m_margin: {x: 0, y: 0, z: -7.595581, w: -6.575693}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

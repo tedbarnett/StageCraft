@@ -1437,6 +1437,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mouth: {fileID: 4584258270802057556}
+  xMove: 0
+  yMove: 0
+  zMove: 0
 --- !u!1 &5441155442093816467
 GameObject:
   m_ObjectHideFlags: 0
