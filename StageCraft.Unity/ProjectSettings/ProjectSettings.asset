@@ -127,7 +127,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: .59
+  bundleVersion: .60
   preloadedAssets:
   - {fileID: 11400000, guid: c73b900e4bace6d4db2eee9dbcce6484, type: 2}
   - {fileID: 518808487471112657, guid: df8aae105e263a5468e482f51411abfe, type: 2}
@@ -277,7 +277,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 0}
+      m_Icon: {fileID: 2800000, guid: 7a9955cac1dd44e9b9f997c1717d54b9, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
