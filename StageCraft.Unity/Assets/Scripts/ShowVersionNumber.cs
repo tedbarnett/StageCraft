@@ -11,7 +11,7 @@ public class ShowVersionNumber : MonoBehaviour
     void Start()
     {
         textMeshComponent = versionTextObject.GetComponent(typeof(TextMeshProUGUI)) as TextMeshProUGUI;
-        textMeshComponent.text = "alpha " + Application.version;
+        textMeshComponent.text = "version: alpha " + Application.version;
     }
 
     // Update is called once per frame
