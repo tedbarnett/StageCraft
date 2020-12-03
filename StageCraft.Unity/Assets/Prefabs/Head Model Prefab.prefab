@@ -78,11 +78,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4293393913944992030}
   - component: {fileID: 4183350941161100128}
-  - component: {fileID: 4180384589146347994}
   - component: {fileID: 4183006704259379944}
   - component: {fileID: 6433957727478565938}
   m_Layer: 0
-  m_Name: Head Prefab
+  m_Name: Head Model Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -124,29 +123,9 @@ MonoBehaviour:
   _sceneViewDestroyWhenOwnerOrLastClientLeaves: 1
   _isRootPrefabView: 1
   _components:
-  - componentID: 1
-    component: {fileID: 4180384589146347994}
   - componentID: 2
     component: {fileID: 4183006704259379944}
   _childViews: []
---- !u!114 &4180384589146347994
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4295684432469938696}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1029778088, guid: ebae63e7edba59945a994528ada1f7a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interpolate: 1
-  _syncPosition: 1
-  _syncRotation: 1
-  _syncScale: 0
-  _syncVelocity: 1
-  _maintainOwnershipWhileSleeping: 0
 --- !u!114 &4183006704259379944
 MonoBehaviour:
   m_ObjectHideFlags: 0
