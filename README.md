@@ -6,7 +6,7 @@ Goal is to enable multiple actors to do an improv scene, each using Oculus Quest
 Working (in "StageCraft" Unity project):
 * Normcore 2 VR multiplayer working (basic avatars, with voice chat, mouth movement)
 * Basic "theater-in-the-round" set
-* Teleport and continuous locomotion
+* Teleport and continuous locomotion (but not yet visible to other players via Normcore!)
 * Grab-able objects
 * Running on Oculus Quest under Unity 2020.1.15f1
 
